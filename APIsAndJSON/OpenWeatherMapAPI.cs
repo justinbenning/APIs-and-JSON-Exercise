@@ -14,7 +14,7 @@ namespace APIsAndJSON
         {
 
             HttpClient client = new HttpClient();
-            string apiKey = "c816c3a8929da1c8ff80355fd03846dd";
+            string apiKey = APIIgnore.APIKey();
             Console.WriteLine("Please enter a city:");
             string cityName = Console.ReadLine();
             string weatherEndpoint = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}&units=imperial";
