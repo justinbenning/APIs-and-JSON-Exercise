@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            //RonVSKanyeAPI.KanyeQuote();
+            //RonVSKanyeAPI.RonQuote();
+            //RonVSKanyeAPI.KanyeQuote();
+            //RonVSKanyeAPI.RonQuote();
+            //RonVSKanyeAPI.KanyeQuote();
+            //RonVSKanyeAPI.RonQuote();
+            //RonVSKanyeAPI.KanyeQuote();
+            //RonVSKanyeAPI.RonQuote();
+            //RonVSKanyeAPI.KanyeQuote();
+            //RonVSKanyeAPI.RonQuote();
+            OpenWeatherMapAPI.Weather();
         }
     }
 }
